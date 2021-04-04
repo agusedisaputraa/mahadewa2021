@@ -31,9 +31,32 @@ img.image-size-medium{
 }
 
 .container {
-    width: 80%;
-    margin: 0 auto;
     background-color: #ffffff;
-    
+    padding: 0;
 
+}
+
+header {
+    padding: 10px 5px;
+    border-bottom: 2px solid #f4f4f4;
+    
+}
+
+img.logo {
+    max-width: 200px;
+}
+
+ul.nav li a {
+    color: #0054d3; 
+    padding: 10px 10px;
+    font-weight: bold;
+}
+
+p {
+    color: #6d98d8;
+    text-decoration: underline;
+    text-decoration-color: #6d98d8;
+    font-weight: bold;
+    font-size: 100%;
+    text-align: center;
 }
